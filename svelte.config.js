@@ -13,13 +13,13 @@ const config = {
 			assets: 'build',
 			fallback: undefined,
 			precompress: false,
-			strict: true
+			strict: true,
+			trailingSlash: 'always'
 		}),
 		paths: {
 		  base: dev ? '' : '/alejo-cloud',
 		},
-		appDir: 'app',
-		trailingSlash: 'always',
+		appDir: 'alejo-cloud',
 	}
 };
 
