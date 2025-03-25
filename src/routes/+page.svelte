@@ -47,14 +47,14 @@
 
         <li>
             <button aria-label="linkedin button">
-                <span class="material-symbols-outlined">favorite</span>
+                <span class="material-symbols-outlined">help</span>
             </button>
         </li>
 
 
         <li>
             <button aria-label="github button">
-                <span class="material-symbols-outlined">favorite</span>
+                <span class="material-symbols-outlined">help</span>
             </button>
         </li>
 
