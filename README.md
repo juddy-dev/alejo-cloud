@@ -1,2 +1,4 @@
-# alejo-cloud
-Olaya's portfolio
+# Alejandro Olaya's portfolio
+
+Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+

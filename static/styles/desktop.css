@@ -1,0 +1,94 @@
+h1 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.75rem;
+}
+
+span {
+    font-size: 1.75rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    column-gap: 6rem;
+    row-gap: 1.5rem;
+
+    margin-bottom: 4rem;
+
+}
+
+.hero {
+    display: flex;
+    justify-content: start;
+
+    width: 100%;
+    gap: 4rem;
+}
+
+.hero div {
+    max-width: 70%;
+}
+
+.hero img {
+    width: 22%;
+    height: auto;
+}
+
+.hero span {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.skills span {
+
+    padding: 0.5rem 2rem;
+    border-radius: 99px;
+
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 2rem;
+    color: var(--bg-color);
+    text-align: center;
+
+    background-color: var(--text-color);
+}
+
+.info img {
+    border-radius: 100%;
+    width: 64px;
+    height: 64px;
+}
+
+.info span {
+    width: 64px;
+    height: 64px;
+
+    font-size: 4rem;
+    text-align: center;
+}
+
+.item .date {
+    font-size: 1rem;
+    color: var(--text-color);
+    opacity: 0.6;
+}
+
+.item .title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-color);
+
+}
+
+.item .subtitle {
+    font-size: 1.2rem;
+    color: var(--text-color);
+
+}
