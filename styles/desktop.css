@@ -1,9 +1,29 @@
+
+
+nav .material-symbols-outlined {
+    font-size: 2rem;
+}
+
+.nav-icon {
+    font-size: 2rem !important;
+    color: var(--text-color) !important;
+}
+
 h1 {
     font-size: 5rem;
 }
 
 h3 {
     font-size: 3rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h4 span{
+    font-size: 2.5rem;
+
 }
 
 p {
@@ -16,7 +36,9 @@ span {
 
 .container {
     display: grid;
-    grid-template-columns: 2fr 1.5fr;
+    grid-template-columns: 2fr 2fr;
+    grid-auto-rows: auto;
+    grid-auto-flow: dense;
     column-gap: 6rem;
     row-gap: 1.5rem;
 
@@ -26,11 +48,12 @@ span {
 
 .hero {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 
     width: 100%;
     margin-bottom: 2rem;
-    gap: 4rem;
+    gap: 2rem;
 }
 
 .hero div {
@@ -43,6 +66,7 @@ span {
 .hero img {
     width: 22%;
     height: auto;
+    align-self: start;
 }
 
 .hero span {
@@ -79,20 +103,20 @@ span {
 }
 
 .item .date {
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: var(--text-color);
     opacity: 0.6;
 }
 
 .item .title {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: 600;
     color: var(--text-color);
 
 }
 
 .item .subtitle {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     color: var(--text-color);
 
 }
