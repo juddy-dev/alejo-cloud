@@ -2,10 +2,20 @@
     .container {
         display: grid;
         grid-template-columns: 100%;
+        grid-auto-rows: auto;
         row-gap: 2.5rem;
 
-        margin-bottom: 4rem;
+        margin-bottom: 5rem;
 
+    }
+
+    nav .material-symbols-outlined {
+        font-size: 1.5rem;
+    }
+
+    .nav-icon {
+        font-size: 1.5rem !important;
+        color: var(--text-color) !important;
     }
 
     h1 {
@@ -13,20 +23,30 @@
     }
     
     h3 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
         font-size: 1.25rem;
     }
     
+    h4 span{
+        font-size: 1.5rem;
+    
+    }
+    
     p {
-        font-size: 1rem;
+        font-size: 1.25rem;
     }
     
     span {
-        font-size: 1rem;
+        font-size: 1.25rem;
     }
 
     .hero {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
 
         width: 100%;
     }
@@ -41,6 +61,7 @@
     .hero img {
         width: 30%;
         height: auto;
+        align-self: start;
     }
 
     .hero span {
@@ -82,14 +103,14 @@
     }
 
     .item .title {
-        font-size: 1rem;
+        font-size: 1.25rem;
         font-weight: 600;
         color: var(--text-color);
     
     }
     
     .item .subtitle {
-        font-size: 0.85rem;
+        font-size: 1rem;
         color: var(--text-color);
     
     }

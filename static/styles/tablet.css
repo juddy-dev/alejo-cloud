@@ -2,10 +2,21 @@
     .container {
         display: grid;
         grid-template-columns: 100%;
+        grid-auto-rows: auto;
         row-gap: 3rem;
 
         margin-bottom: 4rem;
+        padding: 0rem 10rem;
         
+    }
+
+    nav .material-symbols-outlined {
+        font-size: 1.75rem;
+    }
+
+    .nav-icon {
+        font-size: 1.75rem !important;
+        color: var(--text-color) !important;
     }
 
     h1 {
@@ -14,6 +25,15 @@
     
     h3 {
         font-size: 3rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+    
+    h4 span{
+        font-size: 2.5rem;
+    
     }
     
     p {
@@ -27,6 +47,7 @@
     .hero {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
 
         padding: 2rem 0;
         width: 100%;
@@ -40,8 +61,9 @@
     }
 
     .hero img {
-        width: 20%;
+        width: 29%;
         height: auto;
+        align-self: start;
     }
 
     .hero span {
@@ -76,20 +98,20 @@
     }
 
     .item .date {
-        font-size: 1rem;
+        font-size: 1.25rem;
         color: var(--text-color);
         opacity: 0.6;
     }
 
     .item .title {
-        font-size: 1.25rem;
+        font-size: 1.75rem;
         font-weight: 600;
         color: var(--text-color);
     
     }
     
     .item .subtitle {
-        font-size: 1rem;
+        font-size: 1.5rem;
         color: var(--text-color);
     
     }

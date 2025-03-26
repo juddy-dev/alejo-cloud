@@ -1,6 +1,8 @@
 <script>
     /* IMPORTS */
     import { onMount } from "svelte";
+    import { Icon } from "svelte-icons-pack";
+    import { FaBrandsSquareGithub, FaBrandsLinkedin } from "svelte-icons-pack/fa";
     import Item from "../components/Item.svelte";
 
     /* LOGIC */
@@ -29,6 +31,12 @@
         gap: 2rem;
     }
 
+    .work {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
     .education {
         display: flex;
         flex-direction: column;
@@ -47,14 +55,14 @@
 
         <li>
             <button aria-label="linkedin button">
-                <span class="material-symbols-outlined">help</span>
+                <Icon src={FaBrandsSquareGithub} className="nav-icon" />
             </button>
         </li>
 
 
         <li>
             <button aria-label="github button">
-                <span class="material-symbols-outlined">help</span>
+                <Icon src={FaBrandsLinkedin} className="nav-icon" />
             </button>
         </li>
 
@@ -75,20 +83,15 @@
     <section class="hero">
         <div>
             <h1>Hola, Soy Alejo 👋</h1>
-            <p>Apoyo a las empresas del sector financiero en migraciones a la nube.</p>
-            <span>Arquitecto Cloud</span>
+            <p>He liderado migraciones exitosas on-premise y en la nube, optimizando sistemas e infraestructura para mayor eficiencia y escalabilidad.</p>
         </div>
         <img src="/profile.svg" alt=""/>
     </section>
     <section class="about">
-        <h3>Skills</h3>
-        <div class="skills">
-            <span>AWS</span>
-            <span>Microsoft Azure</span>
-            <span>GCP</span>
-        </div>
+        <h3>Más allá de la nube</h3>
+        <p>Cuento con habilidades de liderazgo y comunicación efectiva, lo que me permite trabajar con equipos multidisciplinarios y alinear soluciones técnicas con las necesidades del negocio. Tengo un enfoque estratégico y resolutivo, adaptándome a los cambios tecnológicos para diseñar infraestructuras escalables y eficientes.</p>    
     </section>
-    <section class="general-section">
+    <section class="work">
         <h3>Mi trabajo</h3>
 
         <Item date="Oct 2021 - actualidad" 
@@ -135,6 +138,15 @@
         
     </section>
     <div class="education">
+
+    <section class="about">
+        <h3>Skills</h3>
+        <div class="skills">
+            <span>AWS</span>
+            <span>Microsoft Azure</span>
+            <span>GCP</span>
+        </div>
+    </section>
         <section class="general-section">
             <h3>Mis certificaciones</h3>
             <Item date="Feb 2022 - Feb 2025" 
